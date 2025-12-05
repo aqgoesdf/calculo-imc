@@ -98,3 +98,19 @@ button{
     box-sizing: border-box;
     user-select: none;
 }
+@media screen and (max-width: 600px){
+    main{
+        display: flex;
+        flex-direction: column;
+        background-color: #0f4c5c;
+    }
+    .container{
+        border-radius: 30px;
+        width: 300px;
+        height: 550px;
+    }
+    .input input{
+        width: 150px;
+        height: 20px;
+    }
+}
